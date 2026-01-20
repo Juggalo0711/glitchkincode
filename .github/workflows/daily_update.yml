@@ -14,8 +14,8 @@ jobs:
         with:
           python-version: '3.9'
       - name: Run Update Script 
-        env: YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python update_site.py
+        env: YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}$
+        run: python update_site.py. 
        
       - name: Commit and Push Changes
         run: |
