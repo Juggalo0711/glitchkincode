@@ -1,0 +1,9 @@
+#Windows system junk
+desktop.ini
+Thumbs.db
+
+#Never track user directories
+AppData/
+Default/
+Public/
+All Users/
