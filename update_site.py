@@ -2,7 +2,7 @@ import os
 import requests
 
 # 1. Get your Key
-API_KEY = os.getenv("YOUTUBE_API_KEY")
+API_KEY = os.getenv("security.YOUTUBE_API_KEY")
 
 # 2. Ask YouTube for a fresh 2026 repair video
 query = "tech repair 2026"
