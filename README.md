@@ -1,1 +1,1 @@
-glitchcodekin.com
+glitchkincode.com
