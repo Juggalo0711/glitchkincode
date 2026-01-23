@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:            - name: Download a Build Artifact
+  deploy:            
   uses: actions/download-artifact@v7.0.0
   with:
     # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
