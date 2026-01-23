@@ -11,7 +11,17 @@
 }
 
 * { box-sizing: border-box; }
+#headline {
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 
+#subhead {
+  max-width: 700px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
 body {
   margin: 0;
   background: radial-gradient(circle at 20% 20%, rgba(140, 178, 255, 0.1), transparent 40%),
