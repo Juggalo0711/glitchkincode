@@ -8,8 +8,7 @@ on:
 jobs:
   deploy:            
   uses: 
-  with:
-    # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
+  with:  # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
     name: # optional
     # IDs of the artifacts to download, comma-separated. Either inputs `artifact-ids` or `name` can be used, but not both.
     artifact-ids: # optional
