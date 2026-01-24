@@ -2,6 +2,11 @@ name: Update site content (YouTube)
 
 on:
   workflow_dispatch:
+on:
+  push:
+    branches:
+    - main
+    - release/*
 
 permissions:
   contents: read
@@ -45,6 +50,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment 
         uses: actions/deploy-pages@v4
+
 
 
 
