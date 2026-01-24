@@ -1,6 +1,6 @@
 name: Update site content (YouTube)
 
-on: .github/workflows/update_list.py
+on:
   workflow_dispatch:
 
 permissions:
@@ -43,8 +43,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment index.html
+        id: deployment 
         uses: actions/deploy-pages@v4
+
 
 
 
